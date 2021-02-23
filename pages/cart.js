@@ -5,7 +5,7 @@ import { initiateCheckout } from '../lib/payments.js'
 
 import { useCart } from '../hooks/use-cart.js';
 
-import products from '../../shared/products.json';
+import products from '../shared/products.json';
 
 import Table from '../components/Table';
 
