@@ -1,20 +1,31 @@
-  
+
+
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 0.0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: calc(.5em +1vw);
+
+
+
+
+
+
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 0rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+
+
 }
 
 .footer {
@@ -24,6 +35,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer img {
@@ -39,6 +51,7 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+
 }
 
 .title a:hover,
@@ -51,11 +64,13 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  
 }
 
 .title,
 .description {
   text-align: center;
+ 
 }
 
 .description {
@@ -77,7 +92,7 @@
   align-items: stretch;
   justify-content: flex-start;
   flex-wrap: wrap;
-  max-width: 60em;
+  max-width: 100%;
   list-style: none;
   padding-left: 0;
   margin-top: 3rem;
@@ -91,12 +106,15 @@
   color: inherit;
   text-decoration: none;
   transition: color 0.15s ease, border-color 0.15s ease;
+border: 1px solid silver;
+  background-image: linear-gradient(to bottom right, rgba(10, 0, 65, 0), rgba(31, 0, 167, 0.719));
+
 }
 
 
 @media (min-width: 960px ) {
   .card {
-    flex-basis: calc(33.33% - 2rem);
+    flex-basis: calc(50% - 2rem);
   }
 }
 
@@ -153,3 +171,16 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
   cursor: pointer;
 }
+
+#express {
+
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#exotic {
+
+  margin-top: 0;
+  padding-top: 0;
+}
+

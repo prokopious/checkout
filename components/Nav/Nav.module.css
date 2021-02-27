@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1em 1.5em;
+
 }
 
 .navTitle {
@@ -16,7 +17,7 @@
 }
 
 .navCart svg {
-  margin-right: .5em;
+  margin-right: .0em;
 }
 
 .navCart button {

@@ -1,7 +1,7 @@
+
 import Head from 'next/head'
 import { FaShoppingCart } from 'react-icons/fa';
 import styles from '../styles/Cart.module.css'
-import { initiateCheckout } from '../lib/payments.js'
 
 import { useCart } from '../hooks/use-cart.js';
 
@@ -30,62 +30,22 @@ const columns = [
 
 export default function Home() {
 
-  const { cartItems, checkout, updateItem } = useCart();
+  /**
+   * @lesson-14-solution Exercise 3
+   * Using the same useCart hook as in earlier lessons,
+   * we can import our cartItems, then map them to a
+   * new array in the correct format for our table.
+   */
+
+  const { cartItems, checkout } = useCart();
 
   const data = cartItems.map(({ id, quantity, pricePerUnit }) => {
     const product = products.find(({ id: pid }) => pid === id);
     const { title } = product || {};
-
-    const Quantity = () => {
-
-      /**
-       * @lesson-15-solution Exercise 2
-       * With our form, we can attach an onSubmit event
-       * listener, and when someone submits that form,
-       * we can use the event that's passed as an argument
-       * to prevent the default behavior of the form.
-       */
-
-      function handleOnSubmit(e) {
-        e.preventDefault();
-
-        /**
-         * @lesson-15-solution Exercise 4
-         * We can extra the input elements from our form,
-         * find the quantity input by its name, and use
-         * its value to call the updateItem function that
-         * we created and made available in our global state.
-         */
-
-        const { currentTarget } = e;
-        const inputs = Array.from(currentTarget.elements);
-        const quantity = inputs.find(input => input.name === 'quantity')?.value;
-
-        updateItem({
-          id,
-          quantity: quantity && parseInt(quantity)
-        });
-      }
-
-      /**
-       * @lesson-15-solution Exercise 1
-       * We can use a number type input element as well
-       * as a button element that lets us give our customers
-       * a way to change the quantity.
-       */
-
-      return (
-        <form className={styles.cartQuantity} onSubmit={handleOnSubmit}>
-          <input name="quantity" type="number" min={0} defaultValue={quantity} />
-          <button className={styles.button}>Update</button>
-        </form>
-      )
-    }
-
     return {
       id,
       title,
-      quantity: <Quantity />,
+      quantity,
       pricePerUnit: pricePerUnit.toFixed(2),
       total: (quantity * pricePerUnit).toFixed(2)
     }
@@ -107,6 +67,12 @@ export default function Home() {
         <Table className={styles.table} data={data} columns={columns} />
 
         <p className={styles.checkout}>
+          {/**
+            * @lesson-14-solution Exercise 4
+            * We can additionally import the checkout function
+            * from our useCart hook and trigger it with the onClick
+            * handler to start a new checkout session.
+            */}
           <button className={styles.button} onClick={checkout}>
             Check Out
           </button>

@@ -1,10 +1,21 @@
+@import url(//db.onlinewebfonts.com/c/9018951d09e68064bad94817e0d176d1?family=AkzidenzGrotesk);
+
+@font-face {font-family: "Akzidenz Grotesk"; src: url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.eot"); src: url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.woff") format("woff"), url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.svg#AkzidenzGrotesk") format("svg"); }
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Helvetica;
-  background-color: rgba(250, 107, 25, 0.616);
+  
+  background-image: linear-gradient(to bottom right, rgba(10, 0, 65, 0.719), rgba(31, 0, 167, 0.719));
+  color: #e4e4e4;
+  font-family: "Akzidenz Grotesk";
+
+
+
 }
+
+
 
 a {
   color: inherit;
@@ -13,4 +24,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  font-size: calc(.5em +1vw);
+}
+#express {
+
+  margin-bottom: 0;
+  padding-bottom: 0;
+  letter-spacing: .1em;
+}
+
+#exotic {
+
+  margin-top: -10px;
+  padding-top: 0;
 }

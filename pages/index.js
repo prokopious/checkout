@@ -1,6 +1,5 @@
-
 import Head from 'next/head'
-import styles from '../styles/Home.solution.module.css'
+import styles from '../styles/Home.module.css'
 
 import { initiateCheckout } from '../lib/payments.js'
 
@@ -12,16 +11,17 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="//db.onlinewebfonts.com/c/9018951d09e68064bad94817e0d176d1?family=AkzidenzGrotesk" rel="stylesheet" type="text/css"/>
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Space Jelly Shop
+        <h1 id="express" className={styles.title}>
+          Bukhara Express
         </h1>
 
-        <p className={styles.description}>
-          The best space jellyfish swag on the web!
-        </p>
+        <p id="exotic" className={styles.description}>
+        Exotic Gifts of the Ancient World
+        </p>................................................
 
         <ul className={styles.grid}>
           {products.map(product => {

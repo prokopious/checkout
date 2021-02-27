@@ -11,7 +11,7 @@ const Nav = () => {
     <nav className={styles.nav}>
       <p className={styles.navTitle}>
         <Link href="/">
-          <a>Bukhara Express</a>
+          <a></a>
         </Link>
       </p>
       <p className={styles.navCart}>
