@@ -29,9 +29,10 @@ export default function Home() {
             return (
               <li key={id} className={styles.card}>
                 <a href="#">
+                <h3>{ title }</h3>
+                <p>${ price }</p>
                   <img id="the" src={image} alt={title} />
-                  <h3>{ title }</h3>
-                  <p>${ price }</p>
+                 
                   <p>{ description }</p>
                   {/**
                     * @lesson-08-solution Exercise 1
