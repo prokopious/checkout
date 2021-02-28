@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
 
    
     <CartContext.Provider value={cart}>
-      <Nav />
+      
       <Component {...pageProps} />
     </CartContext.Provider>
   );

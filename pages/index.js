@@ -21,7 +21,7 @@ export default function Home() {
 
         <p id="exotic" className={styles.description}>
         Exotic Gifts of the Ancient World
-        </p>................................................
+        </p>
 
         <ul className={styles.grid}>
           {products.map(product => {
@@ -29,7 +29,7 @@ export default function Home() {
             return (
               <li key={id} className={styles.card}>
                 <a href="#">
-                  <img src={image} alt={title} />
+                  <img id="the" src={image} alt={title} />
                   <h3>{ title }</h3>
                   <p>${ price }</p>
                   <p>{ description }</p>

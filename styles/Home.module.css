@@ -7,13 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: calc(.5em +1vw);
-
-
-
-
-
-
+  background-color: rgba(14, 170, 0, 0.26);
 }
 
 .main {
@@ -23,15 +17,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
   
 
 
 }
 
+
 .footer {
   width: 100%;
   height: 100px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #ff5c5c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,6 +60,8 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  padding-top: 8%;
+
   
 }
 
@@ -96,6 +94,7 @@
   list-style: none;
   padding-left: 0;
   margin-top: 3rem;
+  
 }
 
 .card {
@@ -103,16 +102,41 @@
   padding: 1.5rem;
   flex-basis: calc(50% - 2rem);
   text-align: left;
-  color: inherit;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: color 0.15s ease, border-color 0.15s ease;
-border: 1px solid silver;
-  background-image: linear-gradient(to bottom right, rgba(10, 0, 65, 0), rgba(31, 0, 167, 0.719));
+  border: 4px solid rgba(233, 233, 233, 0.993);
+  background-color: rgba(250, 237, 212, 0.829);
+  
+
+ 
+
+}
+.card img {
+  display: block;
+  max-width: 100%;
+  border: 3px solid rgba(255, 255, 255, 0.308);
+  margin: 0 -.5em 1em;
+  
+}
+.card {
 
 }
 
+.card img {
+  display: block;
+  max-width: 100%;
+  border: 3px solid rgba(255, 255, 255, 0.308);
+  margin: 0 -.5em 1em;
+  mix-blend-mode: inherit;
+}
 
-@media (min-width: 960px ) {
+#the {
+  mix-blend-mode: unset;
+}
+
+
+@media (min-width: 700px ) {
   .card {
     flex-basis: calc(50% - 2rem);
   }
@@ -125,9 +149,9 @@ border: 1px solid silver;
 .card img {
   display: block;
   max-width: 100%;
-  padding: .5em;
-  border-radius: .5em;
+  border: 3px solid rgba(255, 255, 255, 0.308);
   margin: 0 -.5em 1em;
+  mix-blend-mode: normal;
 }
 
 .card h3 {
@@ -145,7 +169,7 @@ border: 1px solid silver;
   height: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .grid {
     width: 100%;
     flex-direction: column;
@@ -160,14 +184,14 @@ border: 1px solid silver;
  */
 
 .button {
-  color: white;
+  color: rgba(255, 255, 255, 0.575);
   font-family: inherit;
   font-size: .9em;
   font-weight: 700;
-  background-color: blueviolet;
+  background-color: #ff5c5c75;
   padding: .8em 1.4em;
-  border-radius: .2em;
-  border: 0;
+  border: 2px solid rgba(255, 255, 255, 0.308);
+
   box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
   cursor: pointer;
 }
@@ -176,6 +200,7 @@ border: 1px solid silver;
 
   margin-bottom: 0;
   padding-bottom: 0;
+  
 }
 
 #exotic {
