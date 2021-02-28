@@ -102,12 +102,13 @@
   padding: 1.5rem;
   flex-basis: calc(50% - 2rem);
   text-align: left;
-  color: rgb(230, 230, 230);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: color 0.15s ease, border-color 0.15s ease;
   border-top: 5px solid rgba(255, 255, 255, 0.205);
-  border-left: 5px solid rgba(255, 255, 255, 0.205);
+  border-left: 5px solid rgba(255, 255, 255, 0.863);
   background-color: rgba(243, 3, 3, 0.233);
+  mix-blend-mode: multiply;
  
 
 
@@ -199,7 +200,7 @@
  */
 
 .button {
-  color: rgba(255, 255, 255, 0.575);
+  color: rgba(3, 3, 3, 0.575);
   font-family: inherit;
   font-size: .9em;
   font-weight: 700;
