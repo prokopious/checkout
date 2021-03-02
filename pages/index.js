@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Traditional Rolling Pins of Italy</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="//db.onlinewebfonts.com/c/724fd8501bf2e964d376105ed91c265f?family=ArnoW01-Regular" rel="stylesheet" type="text/css"/>
       </Head>
