@@ -2,6 +2,8 @@
 
 @font-face {font-family: "Akzidenz Grotesk"; src: url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.eot"); src: url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.woff") format("woff"), url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9018951d09e68064bad94817e0d176d1.svg#AkzidenzGrotesk") format("svg"); }
 
+@import url(//db.onlinewebfonts.com/c/724fd8501bf2e964d376105ed91c265f?family=ArnoW01-Regular);
+@font-face {font-family: "ArnoW01-Regular"; src: url("//db.onlinewebfonts.com/t/724fd8501bf2e964d376105ed91c265f.eot"); src: url("//db.onlinewebfonts.com/t/724fd8501bf2e964d376105ed91c265f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/724fd8501bf2e964d376105ed91c265f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/724fd8501bf2e964d376105ed91c265f.woff") format("woff"), url("//db.onlinewebfonts.com/t/724fd8501bf2e964d376105ed91c265f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/724fd8501bf2e964d376105ed91c265f.svg#ArnoW01-Regular") format("svg"); }
 html,
 body {
   padding: 0;
@@ -53,10 +55,28 @@ a {
 
 #double {
   font-size: .6em;
-  letter-spacing: .05em;
-  color: black;
+  letter-spacing: .09em;
+  color: rgb(0, 0, 0);
 }
 #z {
-  color:   #cd212a;
+  color:   #ff000d;
   
+}
+
+#tain {
+  background-color: rgba(136, 255, 0, 0);
+}
+
+#express {
+
+  margin: 0;
+  padding: 0;
+  color: red;
+  
+}
+
+#exotic {
+
+ 
+  color: #000000;
 }

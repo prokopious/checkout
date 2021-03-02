@@ -3,7 +3,7 @@
 .head {
   width: 100%;
   height: auto;
-  padding-top: 0%;
+  
  
   display: flex;
   justify-content: center;
@@ -44,12 +44,15 @@
 
 .footer {
   width: 100%;
-  height: 100px;
-  border-top: 4px solid #ffffff;
+  height: auto;
+  border-top: 4px solid #ffffff00;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(192, 191, 191);
+  color: #6b6969d5;
+  padding: 6%;
+ background-color: #dfdfdf65;
+  mix-blend-mode: multiply;
   
 }
 
@@ -76,10 +79,10 @@
 }
 
 .title {
-  margin: 0;
+  margin: -1em;
   line-height: 1.15;
   
-  padding-top: 8%;
+  padding-top: 3%;
   color: #cd212a;
 
   
@@ -96,7 +99,9 @@
 .description {
   line-height: 1.5;
   font-size: 1.2em;
-  margin-top: 10px;
+  margin-top: -1em;
+ 
+  background-color: rgba(255, 0, 0, 0);
  
 
 }
@@ -118,23 +123,31 @@
   max-width: 100%;
   list-style: none;
   padding-left: 0;
-  margin-top: 1rem;
-  border-top: 4px solid white;
+  margin-top: 0rem;
+ 
+  background-color: rgba(144, 144, 144, 0.089);
+  margin-bottom: 0;
+  padding-top: .6em;
+
+
+
 }
 
 .card {
-  margin: 1rem;
-  padding: 1.5rem;
+  margin: 2rem;
+
+  padding: 1rem;
   flex-basis: calc(80% - 2rem);
   text-align: left;
-  color: #f4f5f0;
+  color: #d8d8d8;
   text-decoration: none;
   transition: color 0.15s ease, border-color 0.15s ease;
-  border: 10px solid #ffffff00;
-
-  background-color: #cd212a;
-  mix-blend-mode: multiply;
-  margin-top: 3%;
+  border: 10px solid #00000000;
+mix-blend-mode: darken;
+  background-color: #ff000d;
+ 
+ 
+  
  
  
 
@@ -173,8 +186,8 @@
 
 @media (min-width: 1000px ) {
   .card {
-    flex-basis: calc(80% - 2rem);
-    margin: 20%;
+    flex-basis: calc(100% - 2rem);
+    margin: 10%;
     margin-top: 0;
   }
 }
@@ -216,7 +229,8 @@
     line-height: 1.15;
     font-size: 4.3em;
     padding-top: 2%;
-    margin-top: 15px;
+    margin-top: 5px;
+    padding-bottom: 0;
   
     
   }
@@ -240,28 +254,16 @@
 
   box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
   cursor: pointer;
-  color: #3a3a3a;
+  color: #4e4e4e;
 }
 
-#express {
 
-  margin-bottom: 0;
-  padding-bottom: 0;
-  
-}
-
-#exotic {
-
-  margin-top: 0;
-  padding-top: 0;
-  color: #008c46c9;
-}
 
 @media (min-width: 1000px ) {
   .card {
     flex-basis: calc(80% - 2rem);
-    margin: 20%;
-    margin-top: 20px;
+    margin: 10%;
+    margin-top: 40px;
   }
 }
 
@@ -278,12 +280,23 @@
   color: #f4f5f0;
 }
 
-#headd {
-  background-color: #cd212a;
-}
+
 
 
 
 #z {
-  color:   #cd212a;
+  color:   #ff0410;
 }
+
+@media (max-width: 1000px) {
+  .footer {
+    width: 100%;
+   padding: 10%;
+  }
+  }
+
+  .center {
+
+  width: 100%;
+  color: red;
+  }

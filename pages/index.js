@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="//db.onlinewebfonts.com/c/9018951d09e68064bad94817e0d176d1?family=AkzidenzGrotesk" rel="stylesheet" type="text/css"/>
+        <link href="//db.onlinewebfonts.com/c/724fd8501bf2e964d376105ed91c265f?family=ArnoW01-Regular" rel="stylesheet" type="text/css"/>
       </Head>
 
       <main className={styles.main}>
@@ -22,12 +22,13 @@ export default function Home() {
         <p id="exotic" className={styles.description}>
         Traditional rolling pins of Italy
         </p></div>
-
+       
         <ul className={styles.grid}>
+     
           {products.map(product => {
             const { id, title, image, description, price } = product;
             return (
-              <li key={id} className={styles.card}>
+              <div id="tain"><li key={id} className={styles.card}>
                 <a href="#">
                 <h3>{ title }</h3>
                 <p>${ price }</p>
@@ -63,14 +64,14 @@ export default function Home() {
                     }}>Buy</button>
                   </p>
                 </a>
-              </li>
+              </li></div>
             )
           })}
         </ul>
       </main>
 
       <footer className={styles.footer}>
-     <b>Winchester Typography</b>
+     <b>© 2021 Winchester Typography, Inc.</b>
       </footer>
     </div>
   )
