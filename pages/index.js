@@ -15,13 +15,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 id="express" className={styles.title}>
-          Bukhara Express
+        <div className={styles.head}><h1 className={styles.title}>
+        <span id="double">double</span><span id="z">Z</span>ero
         </h1>
 
         <p id="exotic" className={styles.description}>
-        Exotic Gifts of the Ancient World
-        </p>
+        Traditional rolling pins of Italy
+        </p></div>
 
         <ul className={styles.grid}>
           {products.map(product => {
@@ -70,14 +70,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+     <b>Winchester Typography</b>
       </footer>
     </div>
   )

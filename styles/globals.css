@@ -9,15 +9,17 @@ body {
   
 
   color: #000000;
-  font-family: "Akzidenz Grotesk";
-  font-size: calc(.7em + .7vw);
+  font-family: "Baskerville Old Face";
+  font-size: calc(.9em + .7vw);
   background: repeating-linear-gradient(
     0deg,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0) 4px,
-    rgba(0, 0, 0, 0) 4px,
-    rgba(197, 197, 197, 0.048) 8px
+    #f4f5f0,
+    #f4f5f0 6px,
+    #f4f5f0 6px,
+    rgba(255, 255, 255, 0) 12px
   );
+
+
 
 
 
@@ -49,3 +51,12 @@ a {
   padding-top: 0;
 }
 
+#double {
+  font-size: .6em;
+  letter-spacing: .05em;
+  color: black;
+}
+#z {
+  color:   #cd212a;
+  
+}
