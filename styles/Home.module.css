@@ -158,10 +158,7 @@ mix-blend-mode: darken;
 
 }
 
-.card + .card {
 
-
-}
 .card img {
   display: block;
   max-width: 100%;

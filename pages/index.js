@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Traditional Rolling Pins of Italy</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="//db.onlinewebfonts.com/c/724fd8501bf2e964d376105ed91c265f?family=ArnoW01-Regular" rel="stylesheet" type="text/css"/>
+        <link href="//db.onlinewebfonts.com/c/37b29158c68de167677fa4a3087d7188?family=Tiempos+Text+Regular" rel="stylesheet" type="text/css"/>
       </Head>
 
       <main className={styles.main}>
