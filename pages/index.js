@@ -5,6 +5,16 @@ import { initiateCheckout } from '../lib/payments.js'
 
 import products from '../shared/products.json';
 
+const mystyle = {
+  marginBottom: "-.1em",
+  fontSize: "1.2em"
+
+
+
+};
+
+
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -19,8 +29,8 @@ export default function Home() {
         <span id="double">don</span><span id="z">R</span><span id="zero">ossi</span>
         </h1>
 
-        <p id="exotic" className={styles.description}>
-        Traditional rolling pins of Italy
+        <p style={{fontSize: "20px", marginBottom: "-.1em", color: "darkgray",  marginTop: "-2px"}}>
+        Traditional rolling pins
         </p></div>
        
         <ul className={styles.grid}>
@@ -30,11 +40,11 @@ export default function Home() {
             return (
               <div id="tain"><li key={id} className={styles.card}>
                 <a href="#">
-                <h3>{ title }</h3>
-                <p>${ price }</p>
+                <div style={{fontSize: "22px"}}>{ title }</div>
+                <p style={{fontSize: "22px", color: "black"}}>${ price }</p>
                   <img id="the" src={image} alt={title} />
                  
-                  <p>{ description }</p>
+                  <p style={{fontSize: "20px"}}>{ description }</p>
                   {/**
                     * @lesson-08-solution Exercise 1
                     * We can use the native button HTML element which comes
@@ -71,7 +81,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-     <b>© 2021 Winchester Typography, Inc.</b>
+     <b>© 2021 doubleZero, Inc.</b>
       </footer>
     </div>
   )
