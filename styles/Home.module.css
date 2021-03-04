@@ -93,8 +93,7 @@
 
 .card {
   margin: 0em;
-
-padding: 2vw;
+padding: 1em;
 
   
   text-align: left;
@@ -122,7 +121,8 @@ mix-blend-mode: darken;
   display: block;
   max-width: 100%;
 
-  margin: 0 -.5em 0em;
+
+
   
 }
 
@@ -131,7 +131,7 @@ mix-blend-mode: darken;
   display: block;
   max-width: 100%;
 
-  margin: 0 -.5em 1em;
+
 
 }
 
@@ -148,7 +148,7 @@ mix-blend-mode: darken;
 
 .card img {
   display: block;
-  max-width: 80%;
+  max-width: 90%;
   border: 3px solid rgba(255, 255, 255, 0.308);
   margin: 0 -.5em 1em;
   mix-blend-mode: normal;
