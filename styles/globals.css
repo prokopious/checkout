@@ -39,43 +39,28 @@ a {
 }
 
 
-#express {
-
-  margin-bottom: 0;
-  padding-bottom: 0;
- 
-}
-
-#exotic {
 
 
-  padding-top: 0;
-}
+
 
 #double {
-  font-size: .6em;
+  font-size: .4em;
   letter-spacing: .09em;
   color: rgb(0, 0, 0);
 }
 #z {
   color:   #ff000d;
+  font-size: .6em;
   
+}
+
+#zero
+
+{
+  font-size: .6em;
 }
 
 #tain {
   background-color: rgba(136, 255, 0, 0);
 }
 
-#express {
-
-  margin: 0;
-  padding: 0;
-  color: red;
-  
-}
-
-#exotic {
-
- 
-  color: #000000;
-}

@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.head}><h1 className={styles.title}>
-        <span id="double">double</span><span id="z">Z</span>ero
+        <span id="double">don</span><span id="z">R</span><span id="zero">ossi</span>
         </h1>
 
         <p id="exotic" className={styles.description}>

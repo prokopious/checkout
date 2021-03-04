@@ -12,6 +12,7 @@
   
 }
 .container {
+
   min-height: 100vh;
   padding: 0 0.0rem;
   display: flex;
@@ -78,34 +79,20 @@
   text-decoration: underline;
 }
 
-.title {
 
 
-  
-  color: #cd212a;
 
-  
-}
-
-.title,
-.description {
-
-  color:#000000;
-  padding-left: 20%;
-  margin: 0;
-
- 
-}
 
 .description {
   
   font-size: .9em;
  margin-top: -1em;
+
  
   background-color: rgba(255, 0, 0, 0);
 
   color: gray;
-  margin-left: -.9em;
+
  
 
 }
@@ -125,16 +112,18 @@
   background-color: rgba(144, 144, 144, 0.089);
   margin-bottom: 0;
   padding-top: .6em;
+  margin-left: 0;
+  padding: 0;
 
 
 
 }
 
 .card {
-  margin: 1rem;
-  margin-left: -.5em;
+  margin: 0em;
 
-  padding: 1rem;
+
+  padding: 1em;
   
   text-align: left;
   color: #d8d8d8;
@@ -161,7 +150,7 @@ mix-blend-mode: darken;
   display: block;
   max-width: 100%;
 
-  margin: 0 -.5em 1em;
+  margin: 0 -.5em 0em;
   
 }
 
@@ -179,12 +168,7 @@ mix-blend-mode: darken;
 }
 
 
-@media (min-width: 1000px ) {
-  .card {
-  margin-left: 7%;
-  margin-right: 8%;
-  }
-}
+
 
 .card:hover img {
   box-shadow: 0 2px 12px rgba(0,0,0,.1);
@@ -209,11 +193,8 @@ mix-blend-mode: darken;
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-}
 
-@media (max-width: 2000px) {
+
   .grid {
     width: 100%;
     flex-direction: column;
@@ -225,17 +206,17 @@ mix-blend-mode: darken;
     padding-top: 2%;
     margin-top: 5px;
     padding-bottom: 0;
+    padding-left: 12%;
   
     
   }
-}
 
-/**
- * @lesson-08-solution Exercise 1
- * While we can do whatever we want with our button, adding
- * a dark background with white text along with making it
- * a bit bigger will go a long way in helping our customers.
- */
+  .description {
+    padding-left: 12%;
+  }
+
+
+
 
 .button {
   color: rgba(3, 3, 3, 0.575);
@@ -251,27 +232,6 @@ mix-blend-mode: darken;
   color: #4e4e4e;
 }
 
-
-
-@media (min-width: 1000px ) {
-  .card {
-    
-
-  }
-}
-
-.green {
-
-  color: #008c45;
-}
-
-.red {
-  color: #cd212a;
-}
-
-.white {
-  color: #f4f5f0;
-}
 
 
 
