@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import { initiateCheckout } from '../lib/payments.js'
 
 import products from '../shared/products.json';
+import Link from "next/link";
 
 const mystyle = {
   marginBottom: "-.1em",
@@ -42,8 +43,13 @@ export default function Home() {
     
   
         <div className="flex-container">
-        <div><a className={styles.naav}>About</a></div>
-        <div><a className={styles.naav}>Contact</a></div>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+        <Link href="/about">
+          <a>Contact</a>
+        </Link>
+        
       
  
 </div>

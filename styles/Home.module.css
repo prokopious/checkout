@@ -211,11 +211,11 @@ margin-right: 0;
   font-weight: 700;
   background-color: rgba(246, 193, 193, 0);
   padding: .8em 1.4em;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255, 0.836);
 
 
   cursor: pointer;
-  color: #ffffff;
+  color: #d6d5d5da;
 }
 .contact {
   color: rgba(255, 1, 1, 0.993);

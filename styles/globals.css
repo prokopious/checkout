@@ -73,7 +73,10 @@ a {
 .flex-container {
   display: flex;
   background-color: #00000049;
-  padding: 1.5vw;
+  padding: calc(5px + 1.5vw);
+  font-size: calc(15px + .2vw);
+  text-transform: uppercase;
+  color: white;
 }
 
 .flex-container > div {
@@ -82,9 +85,13 @@ a {
   padding: 5px;
  
 }
-.flex-container > div + div {
+.flex-container > a + a {
 
 
-  padding-left: 15px;
+  padding-left: calc(10px + 1.5vw);
  
+}
+
+a + a {
+  padding-left: calc(10px + 1.5vw);
 }
