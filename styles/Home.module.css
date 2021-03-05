@@ -207,17 +207,17 @@ mix-blend-mode: darken;
 
 
 .button {
-  color: rgba(255, 1, 1, 0.993);
+  color: rgba(197, 196, 196, 0.658);
   font-family: inherit;
   font-size: .9em;
   font-weight: 700;
-  background-color: #f4f5f0;
+  background-color: rgba(246, 193, 193, 0.849);
   padding: .8em 1.4em;
-  border: 2px solid rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0.787);
 
-  box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
+
   cursor: pointer;
-  color: #ff0000;
+  color: #d40000;
 }
 .contact {
   color: rgba(255, 1, 1, 0.993);

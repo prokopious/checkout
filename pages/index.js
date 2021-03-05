@@ -77,7 +77,7 @@ export default function Home() {
                           }
                         ]
                       })
-                    }}>Buy</button>      <a className={styles.contact}>FAQ</a> <a className={styles.contact}>Contact</a>
+                    }}>Buy</button>      <a className={styles.contact}>About</a> <a className={styles.contact}>Contact</a>
                   </p>
                 </a>
               </li></div>
