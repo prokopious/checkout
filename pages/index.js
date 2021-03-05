@@ -21,7 +21,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Italian Mattarello Rolling Pins</title>
-        <meta description="Buy mattarello rolling pins. Cheap price."/> 
+        <meta name="description" content="Buy mattarello rolling pins. Cheap price.">
+       
         <link rel="icon" href="/favicon.ico" />
         <link href="//db.onlinewebfonts.com/c/37b29158c68de167677fa4a3087d7188?family=Tiempos+Text+Regular" rel="stylesheet" type="text/css"/>
       </Head>
