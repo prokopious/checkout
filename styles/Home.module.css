@@ -10,6 +10,7 @@
 
   
   flex-direction: column;
+  padding-bottom: .4em;
   
 }
 .container {
@@ -193,6 +194,7 @@ margin-right: 0;
     
     letter-spacing: 0;
     color: rgb(255, 0, 0);
+    padding-bottom: 14px;
 
   
   
