@@ -20,11 +20,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Traditional Rolling Pins of Italy</title>
+        <meta description="Buy mattarello rolling pins. Cheap price."/> 
         <link rel="icon" href="/favicon.ico" />
         <link href="//db.onlinewebfonts.com/c/37b29158c68de167677fa4a3087d7188?family=Tiempos+Text+Regular" rel="stylesheet" type="text/css"/>
       </Head>
 
-      <main className={styles.main}>
+    
         <div className={styles.head}><h1 className={styles.title}>
         <span id="double">don</span><span id="z">R</span><span id="zero">ossi</span>
         </h1>
@@ -38,16 +39,23 @@ export default function Home() {
         </div>
        
 
-
-        <ul className={styles.grid}>
-     
+    
+  
+        <div className="flex-container">
+        <div><a className={styles.naav}>About</a></div>
+        <div><a className={styles.naav}>Contact</a></div>
+      
+ 
+</div>
+<main className={styles.main}>
+<ul className={styles.grid}>
           {products.map(product => {
             const { id, title, image, price } = product;
             return (
-              <div id="tain"><li key={id} className={styles.card}>
+              <li key={id} className={styles.card}>
                 <a href="#">
-                <div style={{fontSize: "22px"}}>{ title }</div>
-                <p style={{fontSize: "22px", color: "black"}}>${ price }</p>
+                <div style={{fontSize: "22px", color: "black"}}>{ title }</div>
+                <p style={{fontSize: "22px", color: "white", marginTop: "0"}}>${ price }</p>
                   <img id="the" src={image} alt={title} />
                  
                   <p style={{fontSize: "20px"}}>This is our only product. Inspired by the long rolling pins of Italy, it is 3 feet in length and approximately 2 inches in diameter.</p>
@@ -77,10 +85,12 @@ export default function Home() {
                           }
                         ]
                       })
-                    }}>Buy</button>      <a className={styles.contact}>About</a> <a className={styles.contact}>Contact</a>
+                    }}>Buy</button>  
+                    
+                 
                   </p>
                 </a>
-              </li></div>
+              </li>
             )
           })}
         </ul>

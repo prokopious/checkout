@@ -69,3 +69,22 @@ a {
 .price {
   color: black;
 }
+
+.flex-container {
+  display: flex;
+  background-color: #64646441;
+  padding: 1.5vw;
+}
+
+.flex-container > div {
+ 
+
+  padding: 5px;
+ 
+}
+.flex-container > div + div {
+
+
+  padding-left: 15px;
+ 
+}
