@@ -29,14 +29,20 @@ export default function Home() {
         <span id="double">don</span><span id="z">R</span><span id="zero">ossi</span>
         </h1>
 
-        <p style={{fontSize: "20px", marginBottom: "-.1em", color: "darkgray",  marginTop: "-2px"}}>
+
+        <div style={{fontSize: "20px", marginBottom: "-.1em", color: "darkgray",  marginTop: "-2px"}}>
         Traditional rolling pins
-        </p></div>
+        </div>
+
        
+        </div>
+       
+
+
         <ul className={styles.grid}>
      
           {products.map(product => {
-            const { id, title, image, description, price } = product;
+            const { id, title, image, price } = product;
             return (
               <div id="tain"><li key={id} className={styles.card}>
                 <a href="#">
@@ -44,11 +50,11 @@ export default function Home() {
                 <p style={{fontSize: "22px", color: "black"}}>${ price }</p>
                   <img id="the" src={image} alt={title} />
                  
-                  <p style={{fontSize: "20px"}}>{ description }</p>
+                  <p style={{fontSize: "20px"}}>This is our only product. Inspired by the long rolling pins of Italy, it is 3 feet in length and approximately 2 inches in diameter.</p>
                   {/**
                     * @lesson-08-solution Exercise 1
                     * We can use the native button HTML element which comes
-                    * with some predefined styles and important accessibility
+                    * with some predefined styles and important asibility
                     * properties for clickable elements.
                     *
                     * @lesson-08-solution Exercise 3
@@ -71,7 +77,7 @@ export default function Home() {
                           }
                         ]
                       })
-                    }}>Buy</button>
+                    }}>Buy</button>      <a className={styles.contact}>FAQ</a> <a className={styles.contact}>Contact</a>
                   </p>
                 </a>
               </li></div>
