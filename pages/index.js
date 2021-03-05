@@ -64,7 +64,7 @@ export default function Home() {
                 <p style={{fontSize: "22px", color: "white", marginTop: "0"}}>${ price }</p>
                   <img id="the" src={image} alt={title} />
                  
-                  <p style={{fontSize: "20px"}}>This is our only product. Inspired by the long rolling pins of Italy, it is 3 feet in length and approximately 2 inches in diameter.</p>
+                  <p style={{fontSize: "20px"}}>This is our only product. Inspired by the long rolling pins of Italy, it is cut to approximately 3 feet in length and sanded to just under 2 inches in diameter. Please do not hesitate to contact us with questions.</p>
                   {/**
                     * @lesson-08-solution Exercise 1
                     * We can use the native button HTML element which comes
