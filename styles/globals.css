@@ -77,10 +77,16 @@ a {
 .flex-container {
   display: flex;
   background-color: #00000049;
-  padding: calc(5px + 1.5vw);
+  padding: calc(10px + 1.5vw);
   font-size: calc(14px + .5vw);
+  
 
-  color: white;
+  color: rgb(0, 0, 0);
+  background: url(https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+
+  border-top: 2px solid rgb(202, 201, 201);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+
 }
 
 .flex-container > div {
@@ -116,4 +122,4 @@ a + a {
     rgba(255, 255, 255, 0) 12px
   );
 
-}+
+}
