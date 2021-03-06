@@ -1,0 +1,22 @@
+.container2 {
+
+    min-height: 100vh;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: left;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #f4f5f0,
+      #f4f5f0 6px,
+      #f4f5f0 6px,
+      rgba(255, 255, 255, 0) 12px
+    );
+  
+  }
+
+  .text {
+      margin: 1em;
+     
+  }

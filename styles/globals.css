@@ -2,7 +2,7 @@
 @font-face {font-family: "Tiempos Text Regular"; src: url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.eot"); src: url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.woff") format("woff"), url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/37b29158c68de167677fa4a3087d7188.svg#Tiempos Text Regular") format("svg"); }
 html,
 body {
-  padding: 0;
+  padding-left: 0;
   margin: 0;
   font-family: "Tiempos Text Regular";
    
@@ -44,21 +44,25 @@ a {
 
 
 #double {
-  font-size: 40px;
+  font-size: calc(20px + 3vw);
   letter-spacing: .09em;
   color: rgb(0, 0, 0);
+
+
   
 }
 #z {
   color:   #ff000d;
-  font-size: 50px;
+  font-size: calc(30px + 3vw);
+
   
 }
 
 #zero
 
 {
-  font-size: 50px;
+  font-size: calc(30px + 3vw);
+
 
 }
 
@@ -74,8 +78,8 @@ a {
   display: flex;
   background-color: #00000049;
   padding: calc(5px + 1.5vw);
-  font-size: calc(15px + .2vw);
-  text-transform: uppercase;
+  font-size: calc(14px + .5vw);
+
   color: white;
 }
 
@@ -95,3 +99,21 @@ a {
 a + a {
   padding-left: calc(10px + 1.5vw);
 }
+
+.container2 {
+
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-image: repeating-linear-gradient(
+    90deg,
+    #f4f5f0,
+    #f4f5f0 6px,
+    #f4f5f0 6px,
+    rgba(255, 255, 255, 0) 12px
+  );
+
+}+
