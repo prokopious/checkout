@@ -28,32 +28,26 @@ export default function Home() {
       </Head>
 
     
-        <div className={styles.head}><h1 className={styles.title}>
-        <span id="double">don</span><span id="z">R</span><span id="zero">ossi</span>
-        </h1>
-
-
-        <div style={{fontSize: "calc(18px);", marginBottom: "-.1em", color: "darkgray",  marginTop: "-2px"}}>
-        Traditional rolling pins
-        </div>
 
        
-        </div>
-       
-
-    
+<div className="flex">
+  <div className="box"><img src="/images/don.png"/></div>
+</div>
+   
   
         <div className="flex-container">
         <Link href="/">
-          <a>Home</a>
+          <a>HOME</a>
         </Link>
         <Link href="/about">
-          <a>About</a>
+          <a>ABOUT</a>
         </Link>
         <Link href="/contact">
-          <a>Contact</a>
+          <a>CONTACT</a>
         </Link>
-        
+        <Link href="/contact">
+          <div id="rossi"></div>
+        </Link>
       
  
 </div>
@@ -64,8 +58,8 @@ export default function Home() {
             return (
               <li key={id} className={styles.card}>
                 <a href="#">
-                <div style={{fontSize: "22px", color: "black", paddingTop: "0em", marginTop: "0"}}>{ title }</div>
-                <p style={{fontSize: "22px", color: "white", marginTop: "0"}}>${ price }</p>
+                <div style={{fontSize: "28px", color: "gray", paddingTop: "0em", marginTop: "0"}}>{ title }</div>
+                <p style={{fontSize: "22px", color: "gray", marginTop: "0"}}>${ price }</p>
                   <img id="the" src={image} alt={title} />
                  
                   <p style={{fontSize: "calc(18px + .5vw)"}}>This is our only product. Inspired by the long rolling pins of Italy, it is cut to approximately 3 feet in length and sanded to just under 2 inches in diameter. Please do not hesitate to contact us with questions.</p>
