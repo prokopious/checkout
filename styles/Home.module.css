@@ -52,8 +52,9 @@
   align-items: center;
   color: #6b6969d5;
   padding: 6%;
- background-color: #dfdfdf65;
+ background-color: #dfdfdf00;
   mix-blend-mode: multiply;
+  height: 100%;
   
 }
 
