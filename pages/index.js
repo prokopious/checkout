@@ -29,11 +29,18 @@ export default function Home() {
 
     
 
+
+      <div className={styles.head}><h1 className={styles.title}>
+        <span id="double">don</span><span id="z">R</span><span id="zero">ossi</span>
+        </h1>
+
+
+        <div style={{fontSize: "calc(18px);", marginBottom: "-.1em", color: "darkgray",  marginTop: "-2px"}}>
+        Traditional rolling pins
+        </div>
+
        
-<div className="flex">
-  <div className="box"><img src="/images/don.png"/></div>
-</div>
-   
+        </div>
   
         <div className="flex-container">
         <Link href="/">
