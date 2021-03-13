@@ -26,34 +26,31 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href="//db.onlinewebfonts.com/c/37b29158c68de167677fa4a3087d7188?family=Tiempos+Text+Regular" rel="stylesheet" type="text/css"/>
       </Head>
-
-    
-        <div className={styles.head}><h1 className={styles.title}>
-        <span id="double">don</span><span id="z">R</span><span id="zero">ossi</span>
+      <div className={styles.head}><h1 className={styles.title}>
+        <span id="double">Don</span><span id="z">R</span><span id="zero">ossi</span>
         </h1>
 
 
-        <div style={{fontSize: "calc(18px);", marginBottom: "-.1em", color: "darkgray",  marginTop: "-2px"}}>
-        Traditional rolling pins
+        <div style={{fontSize: "calc(10px + .5em);", marginBottom: "-.1em", color: "darkgray", marginLeft: ".1em",  marginTop: "calc(-.4em + 1px)"}}>
+       
         </div>
 
        
         </div>
-       
-
-    
   
         <div className="flex-container">
         <Link href="/">
-          <a>Home</a>
+          <a>HOME</a>
         </Link>
         <Link href="/about">
-          <a>About</a>
+          <a>ABOUT</a>
         </Link>
         <Link href="/contact">
-          <a>Contact</a>
+          <a>CONTACT</a>
         </Link>
-        
+        <Link href="/contact">
+          <div id="rossi"></div>
+        </Link>
       
  
 </div>

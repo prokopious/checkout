@@ -31,12 +31,12 @@ export default function Home() {
 
 
       <div className={styles.head}><h1 className={styles.title}>
-        <span id="double">don</span><span id="z">R</span><span id="zero">ossi</span>
+        <span id="double">Don</span><span id="z">R</span><span id="zero">ossi</span>
         </h1>
 
 
-        <div style={{fontSize: "calc(18px);", marginBottom: "-.1em", color: "darkgray",  marginTop: "-2px"}}>
-        Traditional rolling pins
+        <div style={{fontSize: "calc(10px + .5em);", marginBottom: "-.1em", color: "darkgray", marginLeft: ".1em",  marginTop: "calc(-.4em + 1px)"}}>
+     
         </div>
 
        
@@ -65,8 +65,8 @@ export default function Home() {
             return (
               <li key={id} className={styles.card}>
                 <a href="#">
-                <div style={{fontSize: "28px", color: "gray", paddingTop: "0em", marginTop: "0"}}>{ title }</div>
-                <p style={{fontSize: "22px", color: "gray", marginTop: "0"}}>${ price }</p>
+                <div style={{fontSize: "20px", color: "black", paddingTop: "0em", marginTop: "0"}}>{ title }</div>
+                <p style={{fontSize: "22px", color: "white", marginTop: "0"}}>${ price }</p>
                   <img id="the" src={image} alt={title} />
                  
                   <p style={{fontSize: "calc(18px + .5vw)"}}>This is our only product. Inspired by the long rolling pins of Italy, it is cut to approximately 3 feet in length and sanded to just under 2 inches in diameter. Please do not hesitate to contact us with questions.</p>
